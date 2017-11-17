@@ -11,6 +11,7 @@
 		6984B9C01FBE7CD40047E08F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6984B9BF1FBE7CD40047E08F /* ViewController.swift */; };
 		6984B9C21FBE7CD50047E08F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6984B9C11FBE7CD50047E08F /* Assets.xcassets */; };
 		6984B9C51FBE7CD50047E08F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6984B9C31FBE7CD50047E08F /* Main.storyboard */; };
+		6984B9D11FBE7F690047E08F /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6984B9D01FBE7F690047E08F /* 1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		6984B9C41FBE7CD50047E08F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6984B9C61FBE7CD50047E08F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6984B9C71FBE7CD50047E08F /* QLPreviewPanel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QLPreviewPanel.entitlements; sourceTree = "<group>"; };
+		6984B9D01FBE7F690047E08F /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				6984B9BD1FBE7CD40047E08F /* AppDelegate.swift */,
 				6984B9BF1FBE7CD40047E08F /* ViewController.swift */,
+				6984B9D01FBE7F690047E08F /* 1.jpg */,
 				6984B9C11FBE7CD50047E08F /* Assets.xcassets */,
 				6984B9C31FBE7CD50047E08F /* Main.storyboard */,
 				6984B9C61FBE7CD50047E08F /* Info.plist */,
@@ -96,6 +99,11 @@
 					6984B9B91FBE7CD40047E08F = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -122,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6984B9D11FBE7F690047E08F /* 1.jpg in Resources */,
 				6984B9C21FBE7CD50047E08F /* Assets.xcassets in Resources */,
 				6984B9C51FBE7CD50047E08F /* Main.storyboard in Resources */,
 			);
@@ -263,7 +272,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = QLPreviewPanel/QLPreviewPanel.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = W547SRU75H;
@@ -279,7 +287,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = QLPreviewPanel/QLPreviewPanel.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = W547SRU75H;
